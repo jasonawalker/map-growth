@@ -1,17 +1,21 @@
 #red{
-  height: 100px;
-  width: 100px;
-  background-color: #ff0000;
-  margin: 10px 10px 10px 10px;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 1px 1px 1px 1px;
+  float: left;
 }
 
 #grey{
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   background-color: #8c8c8c;
-  margin: 10px 10px 10px 10px;
+  margin: 1px 1px 1px 1px;
+  float: left;
 }
 
-.inline{
-  float: left;
+#holder{
+  width: 0px;
+  height: 0px;
+  /*border: 1px solid black;*/
 }
