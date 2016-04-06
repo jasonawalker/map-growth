@@ -45,7 +45,6 @@ function darken(r,c){
       darkenCoords.push(""+i+j);
     }
   }
-  //console.log(darkenCoords);
 
   $("#holder > .block").each(function(){
     if(darkenCoords.indexOf($(this).text()) > -1){
