@@ -1,7 +1,7 @@
 #red{
   height: 50px;
   width: 50px;
-  background-color: red;
+  background-color: rgb(120,0,0);
   margin: 1px 1px 1px 1px;
   float: left;
 }
@@ -9,13 +9,21 @@
 #grey{
   height: 50px;
   width: 50px;
-  background-color: #8c8c8c;
+  background-color: rgb(140,140,140);
   margin: 1px 1px 1px 1px;
   float: left;
+}
+
+.block:hover{
+  cursor: pointer;
 }
 
 #holder{
   width: 0px;
   height: 0px;
   /*border: 1px solid black;*/
+}
+
+.hide{
+  display: none;
 }
