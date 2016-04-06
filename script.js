@@ -12,7 +12,7 @@ function makeMap(){
     var aa = a[r];
     for(var c = 0; c < aa.length; c++){
       if(a[r][c] === 1){
-        $("#holder").append('<div id ="red" class="block"><p class="hide">'+r+c+'</p></div>');
+        $("#holder").append('<div id="firebrick" class="block"><p class="hide">'+r+c+'</p></div>');
       } else if (a[r][c] === 0) {
         $("#holder").append('<div id="grey" class="block"><p class="hide">'+r+c+'</p></div>');
       }
