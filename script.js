@@ -1,12 +1,13 @@
 var a = [
-              [1,1,1,0,1],
-              [1,0,0,0,0],
-              [1,0,1,1,1],
+              [1,1,1,0,1,0,1,1,0,1,1,1,1,1],
+              [1,0,0,0,0,0,0,1,1,1,1,1,1,1],
+              [1,0,1,1,1,0,0,1,1,1,1,1,1,1],
+              [1,0,1,1,1,0,0,1,1,1,1,1,1,1],
             ];
 
 function makeMap(){
-  $("#holder").css("width", a[0].length*50+a[0].length+5);
-  $("#holder").css("height", a.length*50+a.length+5);
+  $("#holder").css("width", a[0].length*52);
+  $("#holder").css("height", a.length*52);
   for(var r = 0; r < a.length; r++){
     var aa = a[r];
     for(var c = 0; c < aa.length; c++){
